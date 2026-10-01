@@ -61,7 +61,10 @@ page_dict["Visualization"] = visualization_pages
 page_dict["Prediction"] = ml_pages
 page_dict["About us"] = about_pages
 
-
+st.caption(
+    "Aplicación recuperada y corregida | "
+    "Nombre: Moisés Castillo Chávez | Matrícula: A01666921"
+)
 
 
 pg = st.navigation(page_dict)
